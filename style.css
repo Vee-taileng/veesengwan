@@ -689,7 +689,7 @@ footer .container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 20px 0px;
+    padding: 20px 10px;
 }
 
 .input-wrapper {
