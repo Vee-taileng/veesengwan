@@ -124,6 +124,7 @@ nav {
 
     .link-container li {
         line-height: 40px;
+        transition: none;
     }
 
     .toggle-bar {
@@ -133,7 +134,7 @@ nav {
 
     .show-link {
         visibility: visible;
-        transition: 0.5s;
+        /* transition: 0.5s; */
     }
 
 
@@ -688,11 +689,11 @@ footer .container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 20px;
+    padding: 20px 0px;
 }
 
 .input-wrapper {
-    width: 35%;
+    width: 40%;
     margin: 10px;
     padding: 20px;
     display: flex;
@@ -720,4 +721,10 @@ footer .container {
     color: #ddd;
     font-weight: 400;
     font-size: 14px;
+}
+
+@media screen and (max-width: 760px) {
+    .input-wrapper {
+        width: 100%;
+    }
 }
